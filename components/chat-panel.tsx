@@ -36,25 +36,15 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      heading: 'Generate a personalized email ',
+      subheading: 'get started on drafting your email now.',
+      message: `Draft a letter to the Delhi CM in 200 words or less expressing concern about air pollution in Delhi. Ask me some questions to make it personal to me.`
     },
-    {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
-    },
-    {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
-    },
-    {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
-    }
+    // {
+    //   heading: 'What is the ',
+    //   subheading: 'local AQI (Air Quality Index) in Delhi right now?',
+    //   message: 'What is the local AQI (Air Quality Index) in Delhi right now? Look it up from https://www.aqi.in/dashboard/india/delhi/new-delhi'
+    // }
   ]
 
   return (
@@ -65,7 +55,7 @@ export function ChatPanel({
       />
 
       <div className="mx-auto sm:max-w-2xl sm:px-4">
-        <div className="mb-4 grid grid-cols-2 gap-2 px-4 sm:px-0">
+        <div className="mb-4 grid grid-cols-1 gap-4 px-4 sm:px-0">
           {messages.length === 0 &&
             exampleMessages.map((example, index) => (
               <div

@@ -9,28 +9,23 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">
-          Welcome to Next.js AI Chatbot!
+            Delhi is choking. Your action can save it
         </h1>
         <p className="leading-normal text-muted-foreground">
-          This is an open source AI chatbot app template built with{' '}
-          <ExternalLink href="https://nextjs.org">Next.js</ExternalLink>, the{' '}
-          <ExternalLink href="https://sdk.vercel.ai">
-            Vercel AI SDK
-          </ExternalLink>
-          , and{' '}
-          <ExternalLink href="https://vercel.com/storage/kv">
-            Vercel KV
-          </ExternalLink>
-          .
+            1. Delhi is among the top 5 polluted major cities in the world.
         </p>
         <p className="leading-normal text-muted-foreground">
-          It uses{' '}
-          <ExternalLink href="https://vercel.com/blog/ai-sdk-3-generative-ui">
-            React Server Components
-          </ExternalLink>{' '}
-          to combine text with generative UI as output of the LLM. The UI state
-          is synced through the SDK so the model is aware of your interactions
-          as they happen.
+            2. Air pollution is likely the leading cause of death, chronic respiratory illnesses and asthma in Delhi.
+        </p>
+        <p className="leading-normal text-muted-foreground">
+            3. Key reason for the decline in the quality of lives, especially for children and elderly.
+        </p>
+        <br/>
+        <h1 className="text-lg font-semibold">
+            Email CM to Take Action on Air Quality.
+        </h1>
+        <p className="leading-normal text-muted-foreground">
+          Get an AI generated personalized email in seconds
         </p>
       </div>
     </div>
