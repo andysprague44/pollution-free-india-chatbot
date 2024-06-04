@@ -9,7 +9,7 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 rounded-lg border bg-background p-8">
         <h1 className="text-lg font-semibold">
-            Delhi is choking. Your action can save it
+            Delhi is choking. Your action can save it.
         </h1>
         <p className="leading-normal text-muted-foreground">
             1. Delhi is among the top 5 polluted major cities in the world.
@@ -25,7 +25,7 @@ export function EmptyScreen() {
             Email CM to Take Action on Air Quality.
         </h1>
         <p className="leading-normal text-muted-foreground">
-          Get an AI generated personalized email in seconds
+            Get an AI generated personalized email in seconds.
         </p>
       </div>
     </div>

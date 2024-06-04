@@ -37,7 +37,7 @@ export function ChatPanel({
   const exampleMessages = [
     {
       heading: 'Generate a personalized email ',
-      subheading: 'get started on drafting your email now.',
+      subheading: 'Get started on drafting your email now!',
       message: `Draft a letter to the Delhi CM in 200 words or less expressing concern about air pollution in Delhi. Ask me some questions to make it personal to me.`
     },
     // {
